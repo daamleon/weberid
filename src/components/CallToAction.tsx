@@ -47,8 +47,8 @@ const CallToAction: React.FC = () => {
 
           <p className="mt-8 text-blue-100 text-sm md:text-base">
             Atau kirimkan pesan kepada kami melalui WhatsApp di{" "}
-            <a href="tel:+628xxx-xxx-xxx" className="font-semibold underline">
-              +62 8xxx-xxx-xxx
+            <a href="tel:+6285155499795" className="font-semibold underline">
+              +62 851-5549-9795
             </a>
           </p>
         </div>

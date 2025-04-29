@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, intervalTime);
 
-    return () => clearInterval(interval); // Cleanup on component unmount
+    return () => clearInterval(interval); 
   }, [images.length]);
 
   return (
@@ -45,7 +45,15 @@ const Hero: React.FC = () => {
                 Discover More
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
-              <button className="inline-flex items-center px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-full hover:bg-blue-900 hover:text-white transition-colors">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://youtu.be/ZhL1ABVBqB8?si=YJl8EGV0c9h3yZL7",
+                    "_blank"
+                  )
+                }
+                className="inline-flex items-center px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-full hover:bg-blue-900 hover:text-white transition-colors"
+              >
                 <Play className="mr-2 h-5 w-5" />
                 Watch The Video
               </button>

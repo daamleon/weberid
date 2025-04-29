@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <div
         className={`container mx-auto max-w-6xl transition-all duration-300 ${
           isScrolled ? "bg-white shadow-lg" : "bg-white/80 backdrop-blur-lg"
-        } rounded-full px-6 py-4`}
+        } rounded-full px-5 py-3`}
       >
         <div className="flex justify-between items-center">
           <div className="flex justify-between items-center">

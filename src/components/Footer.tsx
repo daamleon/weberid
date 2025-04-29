@@ -124,16 +124,17 @@ const Footer: React.FC = () => {
                   className="text-blue-400 mr-3 mt-1 flex-shrink-0"
                 />
                 <span className="text-blue-200">
-                  Jl. Webmaster No.123, Jakarta Selatan, Indonesia
+                  Jl. Ketintang, Ketintang, Kec. Gayungan, Kota Surabaya, Jawa
+                  Timur, Indonesia
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-blue-400 mr-3 flex-shrink-0" />
                 <a
-                  href="tel:+6281234567890"
+                  href="tel:+6285155499795"
                   className="text-blue-200 hover:text-white transition-colors duration-200"
                 >
-                  +62 8xxx-xxx-xxx
+                  +62 851-5549-9795
                 </a>
               </li>
               <li className="flex items-center">
@@ -142,7 +143,7 @@ const Footer: React.FC = () => {
                   href="mailto:hello@weber.id"
                   className="text-blue-200 hover:text-white transition-colors duration-200"
                 >
-                  hello@weber.id
+                  weberid46@gmail.com
                 </a>
               </li>
             </ul>
