@@ -8,15 +8,16 @@ const portfolioData = [
     title: "Leon Adven",
     category: "Landing page",
     description:
-      "Website perusahaan konsultan bisnis dengan desain modern dan profesional.",
+      "Landing page untuk travel adventure dengan UI yang dinamis dan menarik.",
+    url: "https://leon-adven.vercel.app/",
   },
   {
-    image:
-      "https://images.pexels.com/photos/2356059/pexels-photo-2356059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Travus Adventure",
-    category: "Landing Page",
+    image: "/porto2.png",
+    title: "weber.id",
+    category: "Landing Page, Company Profile",
     description:
-      "Landing page untuk travel adventure dengan UI yang dinamis dan menarik.",
+      "Website perusahaan konsultan bisnis dengan desain modern dan profesional.",
+    url: "https://weberid.vercel.app/",
   },
   {
     image:
@@ -24,6 +25,7 @@ const portfolioData = [
     title: "EcoGreen Initiative",
     category: "Landing Page",
     description: "Website kampanye lingkungan dengan visual yang impactful.",
+    url: "https://your-link-to-ecogreen.com",
   },
   {
     image:
@@ -32,6 +34,7 @@ const portfolioData = [
     category: "Company Profile",
     description:
       "Platform komunitas startup dengan fitur interaktif dan modern.",
+    url: "https://your-link-to-startuphub.com",
   },
   {
     image:
@@ -39,6 +42,7 @@ const portfolioData = [
     title: "Tech Conference 2024",
     category: "Landing Page",
     description: "Landing page event teknologi dengan desain futuristik.",
+    url: "https://your-link-to-techconf.com",
   },
   {
     image:
@@ -46,6 +50,7 @@ const portfolioData = [
     title: "Creative Agency Pro",
     category: "Company Profile",
     description: "Website agensi kreatif dengan portofolio interaktif.",
+    url: "https://your-link-to-agency.com",
   },
 ];
 
@@ -100,6 +105,7 @@ const Portfolio: React.FC = () => {
                 title={item.title}
                 category={item.category}
                 description={item.description}
+                url={item.url}
               />
             ))}
           </div>

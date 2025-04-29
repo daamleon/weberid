@@ -1,25 +1,27 @@
-import React from 'react';
-import { Eye } from 'lucide-react';
+import React from "react";
+import { Eye } from "lucide-react";
 
 interface PortfolioCardProps {
   image: string;
   title: string;
   category: string;
   description: string;
+  url: string;
 }
 
-const PortfolioCard: React.FC<PortfolioCardProps> = ({ 
-  image, 
-  title, 
-  category, 
-  description 
+const PortfolioCard: React.FC<PortfolioCardProps> = ({
+  image,
+  title,
+  category,
+  description,
+  url,
 }) => {
   return (
     <div className="group relative bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="relative overflow-hidden aspect-[4/3]">
-        <img 
-          src={image} 
-          alt={title} 
+        <img
+          src={image}
+          alt={title}
           className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -29,9 +31,14 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
             </span>
             <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
             <p className="text-white/90 text-sm">{description}</p>
-            <button className="mt-4 inline-flex items-center text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-primary-600 transition-colors duration-300">
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-primary-600 transition-colors duration-300"
+            >
               <Eye size={18} className="mr-2" /> View Project
-            </button>
+            </a>
           </div>
         </div>
       </div>
