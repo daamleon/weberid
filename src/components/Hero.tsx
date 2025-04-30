@@ -47,10 +47,7 @@ const Hero: React.FC = () => {
               </a>
               <button
                 onClick={() =>
-                  window.open(
-                    "https://youtu.be/ZhL1ABVBqB8?si=YJl8EGV0c9h3yZL7",
-                    "_blank"
-                  )
+                  window.open("https://youtu.be/E4WlUXrJgy4", "_blank")
                 }
                 className="inline-flex items-center px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-full hover:bg-blue-900 hover:text-white transition-colors"
               >

@@ -7,11 +7,10 @@ const CallToAction: React.FC = () => {
       id="contact"
       className="py-16 md:py-24 bg-gradient-to-b from-blue-300 to-blue-900 text-white relative overflow-hidden"
     >
-      {/* Decorative Background Elements (inspired by the reference) */}
       <div
         className="absolute top-0 left-0 w-full h-full opacity-10 md:opacity-20 pointer-events-none"
         style={{
-          backgroundImage: `url('/pattern-dots.svg')`, // Replace with your pattern image
+          backgroundImage: `url('/pattern-dots.svg')`,
           backgroundSize: "200px",
           backgroundRepeat: "repeat",
         }}
@@ -31,23 +30,22 @@ const CallToAction: React.FC = () => {
 
           <div className="flex justify-center space-x-4 md:space-x-6">
             <a
-              href="#"
+              href="https://wa.me/6285155499795"
+              target="_blank"
               className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors duration-300 transform hover:scale-105 shadow-md"
             >
               <MessageSquare size={24} className="mr-3" />
               Konsultasi Gratis
             </a>
-            {/* <a
-              href="tel:+628xxx-xxx-xxx"
-              className="inline-flex items-center bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium text-lg transition-colors duration-300 transform hover:scale-105 shadow-sm"
-            >
-              Hubungi via Telepon
-            </a> */}
           </div>
 
           <p className="mt-8 text-blue-100 text-sm md:text-base">
             Atau kirimkan pesan kepada kami melalui WhatsApp di{" "}
-            <a href="tel:+6285155499795" className="font-semibold underline">
+            <a
+              href="https://wa.me/6285155499795"
+              target="_blank"
+              className="font-semibold underline"
+            >
               +62 851-5549-9795
             </a>
           </p>

@@ -18,7 +18,8 @@ const Footer: React.FC = () => {
             <div className="flex justify-center md:justify-start">
               <div className="flex gap-2">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/weber_id"
+                  target='blank'
                   className="text-blue-200 hover:text-white transition-colors duration-200"
                 >
                   <Instagram size={20} />

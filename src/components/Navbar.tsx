@@ -65,7 +65,9 @@ const Navbar: React.FC = () => {
               Tentang Kami
             </a>
             <a
-              href="#"
+              href="https://wa.me/6285155499795"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600 text-white px-4 py-2 rounded-full font-bold text-lg transition-colors duration-300 transform hover:scale-105 shadow-md"
             >
               <Phone size={22} className="mr-3" />
@@ -117,7 +119,9 @@ const Navbar: React.FC = () => {
                 Tentang Kami
               </a>
               <a
-                href="#"
+                href="https://wa.me/6285155499795"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors duration-300 transform hover:scale-105 shadow-md"
               >
                 <Phone size={24} className="mr-3" />
