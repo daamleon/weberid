@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className="bg-blue-900 text-white">
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:justify-items-start justify-items-center">
-          <div>
+          <div className="md:justify-items-start justify-items-center">
             <div className="max-w-[200px] justify-items-center">
               <img className="max-w-[200px]" src="/white2.png" alt="" />
               <h3 className="text-2xl font-bold mb-6">
@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               <div className="flex gap-2">
                 <a
                   href="https://www.instagram.com/weber_id"
-                  target='blank'
+                  target="blank"
                   className="text-blue-200 hover:text-white transition-colors duration-200"
                 >
                   <Instagram size={20} />

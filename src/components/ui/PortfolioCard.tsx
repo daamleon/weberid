@@ -26,7 +26,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-            <span className="inline-block px-3 py-1 bg-primary-600 text-white text-sm rounded-full mb-3">
+            <span className="inline-block px-3 py-1 bg-gradient-to-r from-cyan-400 to-blue-500 text-white text-sm rounded-full mb-3">
               {category}
             </span>
             <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
@@ -35,7 +35,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-flex items-center text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-primary-600 transition-colors duration-300"
+              className="mt-4 inline-flex items-center border border-white  hover:border-transparent px-4 py-2 rounded-full bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 text-white transition-colors duration-300"
             >
               <Eye size={18} className="mr-2" /> View Project
             </a>
